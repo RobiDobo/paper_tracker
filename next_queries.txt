@@ -1,4 +1,4 @@
-(abs:"calibration" OR abs:"metrology" OR abs:"phantom") AND (abs:"wearable" OR abs:"personal" OR abs:"dosimeter" OR abs:"EMF")
-(abs:"electric field probe" OR abs:"isotopic probe" OR abs:"near-field probe") AND (abs:"wearable" OR abs:"personal" OR abs:"dosimeter" OR abs:"EMF")
-(abs:"specific absorption rate" OR abs:"SAR" OR abs:"dosimetry measurement") AND (abs:"wearable" OR abs:"personal" OR abs:"dosimeter" OR abs:"EMF")
-TITLE_ABST_KEY:("radio frequency radiation dosimeter" OR "electromagnetic field personal monitor" OR "wearable EMF sensor") AND TITLE_ABST_KEY:("calibration" OR "metrology" OR "measurement validation")
+(abs:"EMF" OR abs:"dosimeter") AND (abs:"calibration" OR abs:"metrology" OR abs:"probe")
+(abs:"wearable" OR abs:"personal") AND (abs:"electric field probe" OR abs:"isotopic probe" OR abs:"sensor calibration")
+(abs:"dosimeter" OR abs:"EMF") AND (abs:"anechoic chamber" OR abs:"SAR measurement" OR abs:"field sensor calibration")
+(abs:"wearable dosimeter" OR abs:"personal exposure meter") AND (abs:"electromagnetic field" OR abs:"radio frequency" OR abs:"sensor calibration")
