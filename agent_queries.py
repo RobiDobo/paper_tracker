@@ -78,7 +78,11 @@ CRITICAL: Always use parentheses to group your OR/AND statements so they evaluat
             response = client_gemini.chat.completions.create(
                 model="gemini-3.1-flash-lite", messages=[{"role": "user", "content": prompt}], timeout=30
             )
-            return response.choices[0].message.content.strip()
+            content = response.choices[0].message.content.strip()
+            if "FIRST_NAME" in content or "LAST_NAME" in content or len(content) < 20:
+                print("⚠️ AI generated a malformed query. Retrying...")
+                continue # Skip this bad response and try again
+            return content
         except Exception as e:
             if "429" in str(e) or "Rate limit" in str(e):
                 print(f"    ⏳ Gemini 3.1 limit hit. Trying Gemini 3.5...")
@@ -94,7 +98,11 @@ CRITICAL: Always use parentheses to group your OR/AND statements so they evaluat
             response = client_gemini_35.chat.completions.create(
                 model="gemini-3.5-flash-lite", messages=[{"role": "user", "content": prompt}], timeout=30
             )
-            return response.choices[0].message.content.strip()
+            content = response.choices[0].message.content.strip()
+            if "FIRST_NAME" in content or "LAST_NAME" in content or len(content) < 20:
+                print("⚠️ AI generated a malformed query. Retrying...")
+                continue # Skip this bad response and try again
+            return content
         except Exception as e:
             if "429" in str(e) or "Rate limit" in str(e):
                 print(f"    ⏳ Gemini 3.5 limit hit. Pausing 60 seconds... (Attempt {attempt+1}/3)")
