@@ -29,9 +29,9 @@ def main():
         
         agent_success = run_script("agent_queries.py")
         if not agent_success:
-            print("🛑 Agent failed (likely out of API keys). Sleeping for 5 minutes...")
-            time.sleep(300)
-            continue
+            print("🛑 Agent failed. We are likely completely out of API keys for today.")
+            print("🛑 Stopping the pipeline to save GitHub Action minutes.")
+            break
             
         run_script("search_papers.py")
         run_script("download_and_parse.py")
