@@ -1,4 +1,4 @@
-(abs:"EMF" OR abs:"dosimeter") AND (abs:"Schottky diode" OR abs:"zero-bias detector" OR abs:"envelope detector")
-(abs:"wearable" OR abs:"personal") AND (abs:"thermocouple" OR abs:"thermopile" OR abs:"RF power detector")
-(abs:"dosimeter" OR abs:"EMF") AND (abs:"logarithmic detector" OR abs:"log detector" OR abs:"RF sensor chip")
-(ABSTRACT:"personal dosimeter" OR ABSTRACT:"electromagnetic field exposure") AND (ABSTRACT:"wearable sensor" OR ABSTRACT:"health physics")
+(abs:"calibration" OR abs:"metrology" OR abs:"phantom") AND (abs:"wearable" OR abs:"personal" OR abs:"dosimeter" OR abs:"EMF")
+(abs:"electric field probe" OR abs:"isotopic probe" OR abs:"near-field probe") AND (abs:"wearable" OR abs:"personal" OR abs:"dosimeter" OR abs:"EMF")
+(abs:"specific absorption rate" OR abs:"SAR" OR abs:"dosimetry measurement") AND (abs:"wearable" OR abs:"personal" OR abs:"dosimeter" OR abs:"EMF")
+TITLE_ABST_KEY:("radio frequency radiation dosimeter" OR "electromagnetic field personal monitor" OR "wearable EMF sensor") AND TITLE_ABST_KEY:("calibration" OR "metrology" OR "measurement validation")

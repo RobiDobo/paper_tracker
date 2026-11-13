@@ -1,0 +1,42 @@
+name: Daily Dosimetry Agent
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # Runs at 8 AM UTC every day
+  workflow_dispatch: # Allows manual trigger from the GitHub UI
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180 # Give it 3 hours max (we stop at 2 hours internally)
+    permissions:
+      contents: write # Needed to push the database back
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests feedparser openai pymupdf python-dotenv
+
+      - name: Run Pipeline
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python run_pipeline.py
+
+      - name: Save Database and Summaries
+        if: always() # Ensures this runs even if the pipeline hits an error
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add papers.db summaries/ papers_metadata.json next_queries.txt
+          git commit -m "Auto: Updated database and summaries [skip ci]" || echo "No changes to commit"
+          git push
