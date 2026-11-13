@@ -1,0 +1,4 @@
+(abs:"EMF" OR abs:"dosimeter") AND (abs:"Schottky diode" OR abs:"zero-bias detector" OR abs:"envelope detector")
+(abs:"wearable" OR abs:"personal") AND (abs:"thermocouple" OR abs:"thermopile" OR abs:"RF power detector")
+(abs:"dosimeter" OR abs:"EMF") AND (abs:"logarithmic detector" OR abs:"log detector" OR abs:"RF sensor chip")
+(ABSTRACT:"personal dosimeter" OR ABSTRACT:"electromagnetic field exposure") AND (ABSTRACT:"wearable sensor" OR ABSTRACT:"health physics")
