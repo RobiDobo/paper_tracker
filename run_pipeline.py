@@ -7,7 +7,6 @@ def run_script(script_name):
     print(f"🚀 RUNNING: {script_name}")
     print(f"{'='*60}\n")
     try:
-        # capture_output=False allows the logs to show up in GitHub Actions
         subprocess.run(["python", script_name], check=True)
         return True
     except subprocess.CalledProcessError:
@@ -16,14 +15,14 @@ def run_script(script_name):
 
 def main():
     start_time = time.time()
-    MAX_RUN_TIME_SECONDS = 2 * 3600 # Run for 2 hours (7200 seconds)
+    # 5.5 hours (19800 seconds) to stay safely under GitHub's 6-hour hard limit
+    MAX_RUN_TIME_SECONDS = 5.5 * 3600 
     
     print(f"🤖 Starting Cloud Dosimetry Agent at {datetime.datetime.now()}")
     
     while True:
-        # Check if we have been running for 2 hours
         if time.time() - start_time > MAX_RUN_TIME_SECONDS:
-            print("\n⏰ 2 Hours reached. Stopping pipeline to save state and avoid GitHub timeout.")
+            print("\n⏰ 5.5 Hours reached. Stopping pipeline to save state and avoid GitHub timeout.")
             break
             
         print(f"\n🔄 Starting New Loop (Elapsed time: {int((time.time() - start_time)/60)} mins)")
