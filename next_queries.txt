@@ -1,4 +1,4 @@
 (abs:"EMF" OR abs:"dosimeter") AND (abs:"Schottky diode" OR abs:"detector" OR abs:"rectifier")
-(abs:"wearable" OR abs:"personal") AND (abs:"power sensor" OR abs:"energy harvesting" OR abs:"RF-DC")
-(abs:"EMF" OR abs:"dosimeter") AND (abs:"CMOS" OR abs:"nanowatt" OR abs:"low-power detector")
-(abs:"personal" OR abs:"wearable") AND (abs:"RF exposure" OR abs:"dosimetry") AND (abs:"sensor" OR abs:"hardware")
+(abs:"wearable" OR abs:"personal") AND (abs:"RF power detector" OR abs:"zero-bias diode" OR abs:"E-field sensor")
+(abs:"EMF" OR abs:"dosimeter") AND (abs:"diode detector" OR abs:"logarithmic amplifier" OR abs:"RF sensing")
+(abs:"personal dosimeter" OR abs:"RF exposure" OR abs:"wearable sensor") AND (abs:"metrology" OR abs:"calibration" OR abs:"detector")
