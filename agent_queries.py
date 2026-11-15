@@ -59,7 +59,12 @@ Then, on the 4th line, generate exactly ONE search query for Europe PMC (focused
 Output ONLY the 4 lines of queries. No numbering, no extra text."""
     
     
-    pillar = random.choice(["Sensors/Detectors", "Antennas", "Calibration/Metrology", "Signal Processing/Hardware"])
+    pillar = random.choice([
+        "Antennas & Sensor Arrays", 
+        "Metrology & Calibration", 
+        "Signal Processing & Software", 
+        "Low-Power Wearable Hardware"
+    ])
     prompt = prompt + f"\nFor this run, focus your query generation HEAVILY on: {pillar}\n"
     
         # Try Gemini 3.1 first
