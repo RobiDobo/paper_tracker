@@ -1,4 +1,4 @@
-(abs:"EMF" OR abs:"dosimeter") AND (abs:"calibration" OR abs:"traceability" OR abs:"measurement uncertainty")
-(abs:"EMF" OR abs:"personal") AND (abs:"phantom" OR abs:"SAR measurement" OR abs:"validation")
-(abs:"dosimeter" OR abs:"EMF") AND (abs:"E-field probe" OR abs:"standard gain" OR abs:"anechoic")
-(abs:"EMF" OR abs:"personal dosimeter") AND (abs:"calibration protocol" OR abs:"metrology" OR abs:"field probe validation")
+(abs:"dosimeter" OR abs:"EMF") AND (abs:"logarithmic amplifier" OR abs:"Schottky diode" OR abs:"RF detector")
+(abs:"wearable") AND (abs:"signal processing" OR abs:"analog-to-digital converter" OR abs:"low power circuit")
+(abs:"personal" OR abs:"dosimeter") AND (abs:"frequency selective" OR abs:"bandpass filter" OR abs:"power management")
+(abs:"wearable dosimeter" OR abs:"personal EMF exposure") AND (abs:"sensor circuit" OR abs:"hardware")
