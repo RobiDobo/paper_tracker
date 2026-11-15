@@ -33,7 +33,15 @@ def generate_new_queries():
     
     print(f"Fetched {len(accepted_titles)} ACCEPTED and {len(rejected_titles)} REJECTED titles.")
 
-    # 2. Ask the Metrology Expert AI to analyze the gaps
+        # 1. Define the pillar FIRST
+    pillar = random.choice([
+        "Antennas & Sensor Arrays", 
+        "Metrology & Calibration", 
+        "Signal Processing & Software", 
+        "Low-Power Wearable Hardware"
+    ])
+
+    # 2. Create the main prompt
     prompt = f"""You are an expert RF metrology and hardware engineer. 
 I am building a frequency-selective personal RF/EMF dosimeter.
 
@@ -51,21 +59,14 @@ A complete dosimeter requires knowledge in these core pillars:
 
 TASK:
 Generate exactly 3 new arXiv search queries (using `abs:"keyword" OR abs:"keyword"`). 
-CRITICAL: For this run, focus your queries HEAVILY on finding papers about: {pillar}.
 Ensure the queries are specific to hardware/engineering (avoid pure biology or telecom network optimization).
 
 Then, on the 4th line, generate exactly ONE search query for Europe PMC (focused on wearable medical sensors or health physics hardware).
 
 Output ONLY the 4 lines of queries. No numbering, no extra text."""
-    
-    
-    pillar = random.choice([
-        "Antennas & Sensor Arrays", 
-        "Metrology & Calibration", 
-        "Signal Processing & Software", 
-        "Low-Power Wearable Hardware"
-    ])
-    prompt = prompt + f"\nFor this run, focus your query generation HEAVILY on: {pillar}\n"
+
+    # 3. Append the random pillar instruction to the end
+    prompt = prompt + f"\nCRITICAL: For this run, focus your query generation HEAVILY on: {pillar}\n"
     
         # Try Gemini 3.1 first
     for attempt in range(2):
