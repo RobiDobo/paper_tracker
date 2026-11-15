@@ -1,4 +1,4 @@
-(abs:"dosimeter" OR abs:"EMF") AND (abs:"logarithmic amplifier" OR abs:"Schottky diode" OR abs:"RF detector")
-(abs:"wearable") AND (abs:"signal processing" OR abs:"analog-to-digital converter" OR abs:"low power circuit")
-(abs:"personal" OR abs:"dosimeter") AND (abs:"frequency selective" OR abs:"bandpass filter" OR abs:"power management")
-(abs:"wearable dosimeter" OR abs:"personal EMF exposure") AND (abs:"sensor circuit" OR abs:"hardware")
+(abs:"wearable" OR abs:"personal") AND (abs:"Schottky diode" OR abs:"rectenna" OR abs:"RF energy harvesting")
+(abs:"EMF" OR abs:"dosimeter") AND (abs:"detector" OR abs:"power detector" OR abs:"logarithmic amplifier")
+(abs:"wearable" OR abs:"personal") AND (abs:"CMOS sensor" OR abs:"front-end" OR abs:"RF sensing")
+(abs:"wearable" OR abs:"personal") AND (abs:"dosimetry" OR abs:"exposure assessment") AND (abs:"sensor")
