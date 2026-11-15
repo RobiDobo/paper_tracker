@@ -11,10 +11,9 @@ from dotenv import load_dotenv # <-- Add this
 from db_manager import init_db, is_paper_processed, mark_paper_processed
 import random
 
-load_dotenv() # <-- Add this right here (before the clients)
+load_dotenv() 
 
-# --- CONFIGURATION ---
-YOUR_EMAIL = "robert.dobosan@student.upt.ro" 
+EMAIL = "robert.dobosan@student.upt.ro" 
 # We use two different queries because arXiv and Europe PMC use different search syntax
 
 # Read the AI-generated query if it exists, otherwise use the default
@@ -82,24 +81,24 @@ def check_relevance(title, abstract):
     global current_api_tier
     if not abstract: return "NO"
     
-    prompt = f"""You are a strict research assistant evaluating papers for an RF engineering project.
-My project is: "Designing a frequency-selective personal RF/EMF dosimeter (measuring 5G, Wi-Fi, etc.)".
+    prompt = f"""You are a research assistant evaluating papers for an RF engineering project.
+My project is: "Designing a frequency-selective personal RF/EMF dosimeter".
 
-Evaluate the title and abstract below. Is this paper USEFUL for building my project?
+Is this paper USEFUL as a reference for building this hardware?
 
-Say "YES" ONLY if the paper is about hardware that can be worn or held by a person. This includes:
-- Wearable/flexible antennas
-- Compact RF detectors (Schottky diodes, thermocouples) meant for portable use
-- Calibration of personal exposure monitors
-- Wearable RF harvesting hardware
+Say "YES" if the paper is about any of these ADJACENT HARDWARE/SOFTWARE TOPICS:
+- Antennas & Sensor Arrays (broadband, flexible, UWB, array design).
+- RF Measurement & Metrology (E-field probes, calibration, SAR phantoms, spectrum sensing).
+- RF Signal Processing & Software (SDR, envelope detectors, log-detectors, peak detection, RMS, embedded DSP).
+- Low-Power Wearable Hardware (flexible circuits, energy harvesting for sensors).
 
-Say "NO" for ANY of the following:
-- Telecom infrastructure (Massive MIMO, base stations, satellite comms, UAV networks)
-- Pure biology or health effects
-- Ionizing radiation (X-rays)
-- Quantum physics, photonics, or metamaterials not related to wearables
+Say "NO" if the paper is purely about:
+- Pure biology or health effects (e.g., cancer, cells).
+- Ionizing radiation (X-rays, radiotherapy).
+- Telecom network optimization (Massive MIMO, base stations, satellite comms without sensor hardware).
 
 Answer ONLY with "YES" or "NO".
+
 Title: {title}
 Abstract: {abstract}"""
     
@@ -293,7 +292,7 @@ def main():
                 print(f"    🎯 Total relevant found: {new_relevant_count}/{TARGET_NEW_PAPERS}")
                 
                 # PDF LOGIC
-                pdf_url = get_unpaywall_pdf(p['doi'], YOUR_EMAIL) if p.get('doi') else None
+                pdf_url = get_unpaywall_pdf(p['doi'], EMAIL) if p.get('doi') else None
                 if pdf_url:
                     p['pdf_url'] = pdf_url
                     p['status'] = 'ready_to_download'
