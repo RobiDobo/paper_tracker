@@ -1,4 +1,4 @@
-(abs:"wearable" OR abs:"personal") AND (abs:"Schottky diode" OR abs:"rectenna" OR abs:"RF energy harvesting")
-(abs:"EMF" OR abs:"dosimeter") AND (abs:"detector" OR abs:"power detector" OR abs:"logarithmic amplifier")
-(abs:"wearable" OR abs:"personal") AND (abs:"CMOS sensor" OR abs:"front-end" OR abs:"RF sensing")
-(abs:"wearable" OR abs:"personal") AND (abs:"dosimetry" OR abs:"exposure assessment") AND (abs:"sensor")
+abs:"wearable RF dosimeter" OR abs:"energy harvesting IoT sensor" OR abs:"low-power wireless sensor node"
+abs:"flexible antenna wearable" OR abs:"battery-free wearable sensor" OR abs:"power management integrated circuit wearable"
+abs:"ultra-low power analog front-end" OR abs:"wearable electromagnetic dosimeter" OR abs:"miniaturized energy harvester RF"
+SRC:("wearable RF dosimeter" OR "personal EMF exposure monitor" OR "electromagnetic field dosimeter hardware" OR "wearable health monitoring sensor node")
