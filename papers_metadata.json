@@ -1,1 +1,20 @@
-[]
+[
+    {
+        "title": "Long-Baseline Phase-Coherent Microwave Reception Using Rydberg Atoms",
+        "abstract": "A long baseline phase-coherent microwave receiver is demonstrated using a remotely interrogated cesium Rydberg atom sensor over an 8 m free-space optical link. A 3.989 GHz local oscillator (LO) is intensity-modulated onto an 852 nm optical probe and recovered remotely for atomic superheterodyne detection. A 509 nm coupling laser establishes a Rydberg electromagnetically induced transparency (EIT) system addressing the 6S1/2 to 6P3/2 to 56D5/2 ladder, with microwave coupling to 57P3/2. A test signal offset by 5 kHz generates an optically detected intermediate-frequency (IF) response returned to the reference station for centralized coherent acquisition. This eliminates independent remote oscillators, electronic IF acquisition, and distributed clock synchronization. Over 10 min, the differential phase between remote and local reference exhibits a standard deviation of 0.476 deg and a minimum overlapping phase Allan deviation of 0.048 deg at approximately 200 s averaging. Following optical-link interruption, the differential phase recovers without recalibration, with a measured pre- and post-interruption difference of 0.01 deg. These results demonstrate phase coherent remotely interrogated atomic microwave reception with reduced instrumentation, supporting future distributed interferometry, multistatic radar, and coherent sensor arrays.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2610.33552",
+        "pdf_url": "https://arxiv.org/pdf/2610.33552.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Fixed-Threshold One-Bit Toeplitz Covariance Estimation under Sparse-Ruler Sampling",
+        "abstract": "We estimate the Toeplitz covariance matrix of a centered Gaussian distribution from data that are both coarsely quantized and sparsely sampled. Only the coordinates of a sparse ruler are recorded, and each recorded value is kept as a single bit: the sign of its comparison with a fixed threshold. Such data arise in low-precision sensing front ends and sparse sensor arrays. Because the threshold is nonzero, every bit has a common mean. Each bit is also reused across many of the products that build the covariance, so one bit's error enters many of them. Centering removes the shared error. We prove a Gaussian variance contraction theorem for products of a centered, bounded nonlinearity of a Gaussian vector, the non-smooth one-bit sign included; it sets each lag's variance by how well the ruler covers that lag. The resulting estimator needs neither the signal scale nor the bit mean in advance, since the nonzero threshold makes both identifiable from the marginal bits. A matching minimax lower bound shows the resulting coverage rate is optimal up to constants over a neighborhood of white noise; the bound holds even for the unquantized real-valued samples, so one-bit quantization costs only a constant factor.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2606.11110",
+        "pdf_url": "https://arxiv.org/pdf/2606.11110.pdf",
+        "status": "ready_to_download"
+    }
+]
