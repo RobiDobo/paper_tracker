@@ -1,4 +1,4 @@
-abs:"wearable RF dosimeter" OR abs:"energy harvesting IoT sensor" OR abs:"low-power wireless sensor node"
-abs:"flexible antenna wearable" OR abs:"battery-free wearable sensor" OR abs:"power management integrated circuit wearable"
-abs:"ultra-low power analog front-end" OR abs:"wearable electromagnetic dosimeter" OR abs:"miniaturized energy harvester RF"
-SRC:("wearable RF dosimeter" OR "personal EMF exposure monitor" OR "electromagnetic field dosimeter hardware" OR "wearable health monitoring sensor node")
+abs:"wearable" AND abs:"dosimeter" AND abs:"radio frequency" AND abs:"low-power"
+abs:"energy harvesting" AND abs:"rectenna" AND abs:"wearable sensor" AND abs:"RF"
+abs:"flexible antenna" AND abs:"power management" AND abs:"EMF monitoring" AND abs:"low-power"
+"wearable" AND "exposure assessment" AND "RF" AND "dosimetry" AND "hardware"
