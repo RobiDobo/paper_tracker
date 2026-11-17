@@ -1,4 +1,4 @@
-abs:"electrically small antenna" OR abs:"broadband antenna array" OR abs:"wearable antenna"
-abs:"metasurface antenna" OR abs:"chiral antenna" OR abs:"flexible antenna"
-abs:"electromagnetic bandgap" OR abs:"near-field antenna" OR abs:"vivaldi antenna"
-ABS_TITLE_ABS:"wearable personal dosimeter" OR ABS_TITLE_ABS:"electromagnetic field personal exposure meter" OR ABS_TITLE_ABS:"radiofrequency personal dosimeter hardware"
+abs:"peak detector" OR abs:"log-periodic" OR abs:"envelope detector" OR abs:"logarithmic detector"
+abs:"software defined radio" OR abs:"digital signal processing" OR abs:"spectral estimation" OR abs:"fast fourier transform"
+abs:"power measurement" OR abs:"rms detector" OR abs:"channel power" OR abs:"frequency selective"
+(ABSTRACT:"wearable dosimeter" OR ABSTRACT:"personal exposure meter" OR ABSTRACT:"electromagnetic field sensor") AND (ABSTRACT:"hardware" OR ABSTRACT:"real-time" OR ABSTRACT:"embedded")
