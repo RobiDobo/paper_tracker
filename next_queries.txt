@@ -1,4 +1,4 @@
-abs:"flexible electronics" OR abs:"wearable sensor" OR abs:"energy harvesting"
-abs:"low-power hardware" OR abs:"biomedical telemetry" OR abs:"flexible circuit"
-abs:"wearable health monitoring" OR abs:"flexible electronics" OR abs:"low-power wearable"
-EXT_ID:PUBMED AND ( "wearable sensor" OR "electromagnetic dosimeter" OR "radiofrequency exposure" )
+abs:"electrically small antenna" OR abs:"broadband antenna array" OR abs:"wearable antenna"
+abs:"metasurface antenna" OR abs:"chiral antenna" OR abs:"flexible antenna"
+abs:"electromagnetic bandgap" OR abs:"near-field antenna" OR abs:"vivaldi antenna"
+ABS_TITLE_ABS:"wearable personal dosimeter" OR ABS_TITLE_ABS:"electromagnetic field personal exposure meter" OR ABS_TITLE_ABS:"radiofrequency personal dosimeter hardware"

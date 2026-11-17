@@ -1,20 +1,56 @@
 [
     {
-        "title": "Long-Baseline Phase-Coherent Microwave Reception Using Rydberg Atoms",
-        "abstract": "A long baseline phase-coherent microwave receiver is demonstrated using a remotely interrogated cesium Rydberg atom sensor over an 8 m free-space optical link. A 3.989 GHz local oscillator (LO) is intensity-modulated onto an 852 nm optical probe and recovered remotely for atomic superheterodyne detection. A 509 nm coupling laser establishes a Rydberg electromagnetically induced transparency (EIT) system addressing the 6S1/2 to 6P3/2 to 56D5/2 ladder, with microwave coupling to 57P3/2. A test signal offset by 5 kHz generates an optically detected intermediate-frequency (IF) response returned to the reference station for centralized coherent acquisition. This eliminates independent remote oscillators, electronic IF acquisition, and distributed clock synchronization. Over 10 min, the differential phase between remote and local reference exhibits a standard deviation of 0.476 deg and a minimum overlapping phase Allan deviation of 0.048 deg at approximately 200 s averaging. Following optical-link interruption, the differential phase recovers without recalibration, with a measured pre- and post-interruption difference of 0.01 deg. These results demonstrate phase coherent remotely interrogated atomic microwave reception with reduced instrumentation, supporting future distributed interferometry, multistatic radar, and coherent sensor arrays.",
-        "doi": null,
+        "title": "Electrically small matched antennas with time-periodic and space-uniform modulation",
+        "abstract": "A conceptual method to realize an impedance-matched electrically small antenna is discussed, using a transmission line modulated only in time. The time-periodic space-uniform modulation of a distributed shunt array of varcapacitors excites a mode with very small frequency but still a small (microwave) wavelength: the matching line then retains a practical size. The modulated transmission line brings the problem of impedance matching to a frequency $f_0$ much higher than the signal, where the large antenna reactance can be easily compensated with a much higher bandwidth for the same $Q$ factor: actually the bandwidth $Δf= f_0 / Q$ becomes large when $f_0$ is much larger than the signal frequency. A simple way to obtain the space uniform modulation of the transmission line is illustrated, making use of a Wheatstone-bridge arrangement of the modulated varicaps. The signal and modulating lines, running in parallel on a section of the same length, see two very different equivalent shunt capacitances, so that the modulating voltage is almost uniform while the signal voltage may change significantly across the transmission line.",
+        "doi": "10.1109/TAP.2021.3060048",
         "pmcid": null,
-        "arxiv_id": "2610.33552",
-        "pdf_url": "https://arxiv.org/pdf/2610.33552.pdf",
+        "arxiv_id": "2003.08496",
+        "pdf_url": "https://arxiv.org/pdf/2003.08496",
         "status": "ready_to_download"
     },
     {
-        "title": "Fixed-Threshold One-Bit Toeplitz Covariance Estimation under Sparse-Ruler Sampling",
-        "abstract": "We estimate the Toeplitz covariance matrix of a centered Gaussian distribution from data that are both coarsely quantized and sparsely sampled. Only the coordinates of a sparse ruler are recorded, and each recorded value is kept as a single bit: the sign of its comparison with a fixed threshold. Such data arise in low-precision sensing front ends and sparse sensor arrays. Because the threshold is nonzero, every bit has a common mean. Each bit is also reused across many of the products that build the covariance, so one bit's error enters many of them. Centering removes the shared error. We prove a Gaussian variance contraction theorem for products of a centered, bounded nonlinearity of a Gaussian vector, the non-smooth one-bit sign included; it sets each lag's variance by how well the ruler covers that lag. The resulting estimator needs neither the signal scale nor the bit mean in advance, since the nonzero threshold makes both identifiable from the marginal bits. A matching minimax lower bound shows the resulting coverage rate is optimal up to constants over a neighborhood of white noise; the bound holds even for the unquantized real-valued samples, so one-bit quantization costs only a constant factor.",
+        "title": "Broadband Parametric Impedance Matching for Small Antennas Using the Bode-Fano Limit",
+        "abstract": "In this work, a parametric up-converter amplifier is introduced as a wideband impedance matching network for receiving electrically small antennas. Chu's limit restricts the minimum Q-factor of unloaded small antennas; however, the practical bandwidth of small antennas is defined by their loaded Q-factor. By connecting a small antenna to an amplifier with a real input impedance several times greater than the radiation resistance of the antenna, we propose increasing the return loss to reduce the loaded Q-factor and increase the bandwidth as a result of the Bode-Fano theorem. In addition, a parametric amplifier is used because, in comparison with transistor amplifiers, it offers low noise characteristics. The gain of the low noise parametric amplifier compensates for the loss due to the imposed mismatch. Our simulation result shows bandwidth improvements up to 32 times can be accomplished by trading 2 dB of noise figure compare to 15 dB suggested by Chu's limit for a lossy antenna.",
         "doi": null,
         "pmcid": null,
-        "arxiv_id": "2606.11110",
-        "pdf_url": "https://arxiv.org/pdf/2606.11110.pdf",
+        "arxiv_id": "1907.11683",
+        "pdf_url": "https://arxiv.org/pdf/1907.11683.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Fundamental Efficiency Limits for Small Metallic Antennas",
+        "abstract": "Both the radiation efficiency and bandwidth of electrically small antennas are dramatically reduced as the size decreases. Fundamental limitations on the bandwidth of small antennas have been thoroughly treated in the past. However, upper bounds on radiation efficiency have not been established even though it is also of significant importance. Here, radiation from a thin metallic shell is rigorously analyzed to establish fundamental limits on the radiation efficiency of resonant, electrically small antennas in terms of the size and the metal conductivity. Metallic losses are systematically introduced into the circuit model proposed by Chu, and several resonant antennas with maximum radiation efficiencies are analyzed. Resonant electric and magnetic dipole antennas both have maximum radiation efficiencies near 100% until the size is reduced below a critical value, at which point the efficiency scales as electrical size to the fourth power ((ka)^4 ). It is also shown that a helix antenna that resonantly couples the TM10 mode to the TE10 mode has a maximum radiation efficiency, and is about twice that of a resonant dipole or loop antenna. The closed form expressions reported here provide valuable insight into the design of small antennas with optimal efficiencies.",
+        "doi": "10.1109/TAP.2017.2670532",
+        "pmcid": null,
+        "arxiv_id": "1612.07317",
+        "pdf_url": "https://arxiv.org/pdf/1612.07317",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Broadband Energy Harvesting Using a Metamaterial Resonator Embedded With Non-Foster Impedance Circuitry",
+        "abstract": "Radio Frequency Identification (RFID) and implantable biomedical devices need efficient power and data transfer with very low profile antennas. We propose a low profile electrically small antenna for near-field wireless power and data telemetry employing a metamaterial Split Ring Resonator (SRR) antenna. SRRs can be designed for operation over wide frequencies from RF to visible. However, they are inherently narrowband making them sensitive to component mismatch with respect to external transmit antenna. Here we propose an embedding of a non-foster impedance circuitry into the metamaterial SRR structure that imparts conjugate negative complex impedance to this resonator antenna thereby increasing the effective bandwidth and thus overcoming the fundamental limit for efficient signal coupling. We demonstrate the concept through extensive numerical simulations and a prototype system at the board level using discrete off-the-shelf components and printed circuit SRR antenna at 500 MHz. We show that the power transfer between SRR receive antenna and the external transmit loop antenna is broadened by almost 400 MHz which corresponds to increase in Δf/fC from 0.49 to 1.65, before and after non-foster circuit activation.",
+        "doi": "10.1063/1.4921523",
+        "pmcid": null,
+        "arxiv_id": "1411.0662",
+        "pdf_url": "https://arxiv.org/pdf/1411.0662",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Stored energies in electric and magnetic current densities for small antennas",
+        "abstract": "Electric and magnetic currents are essential to describe electromagnetic stored energy, as well as the associated quantities of antenna Q and the partial directivity to antenna Q-ratio, D/Q, for general structures. The upper bound of previous D/Q-results for antennas modeled by electric currents is accurate enough to be predictive, this motivates us here to extend the analysis to include magnetic currents. In the present paper we investigate antenna Q bounds and D/Q-bounds for the combination of electric- and magnetic-currents, in the limit of electrically small antennas. This investigation is both analytical and numerical, and we illustrate how the bounds depend on the shape of the antenna. We show that the antenna Q can be associated with the largest eigenvalue of certain combinations of the electric and magnetic polarizability tensors. The results are a fully compatible extension of the electric only currents, which come as a special case. The here proposed method for antenna Q provides the minimum Q-value, and it also yields families of minimizers for optimal electric and magnetic currents that can lend insight into the antenna design.",
+        "doi": "10.1098/rspa.2014.0897",
+        "pmcid": null,
+        "arxiv_id": "1410.8704",
+        "pdf_url": "https://arxiv.org/pdf/1410.8704",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Active Electrically Small Antenna Based on Superconducting Quantum Array",
+        "abstract": "We introduce Superconductive Quantum Arrays (SQAs) and propose to use these structures as active Electrically Small Antennas (ESA). Several prototypes of the active ESA were fabricated using Nb process with critical current density 4.5 kA/cm2 and experimentally evaluated. The magnetic field to voltage transfer function linearity up to 70 dB was measured, and transfer factor dV/dB up to 6.5 mV/μT was observed for the ESA prototype containing 560 cells.",
+        "doi": "10.1109/TASC.2012.2232691",
+        "pmcid": null,
+        "arxiv_id": "1211.6787",
+        "pdf_url": "https://arxiv.org/pdf/1211.6787",
         "status": "ready_to_download"
     }
 ]
