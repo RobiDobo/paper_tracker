@@ -1,4 +1,4 @@
-abs:"peak detector" OR abs:"log-periodic" OR abs:"envelope detector" OR abs:"logarithmic detector"
-abs:"software defined radio" OR abs:"digital signal processing" OR abs:"spectral estimation" OR abs:"fast fourier transform"
-abs:"power measurement" OR abs:"rms detector" OR abs:"channel power" OR abs:"frequency selective"
-(ABSTRACT:"wearable dosimeter" OR ABSTRACT:"personal exposure meter" OR ABSTRACT:"electromagnetic field sensor") AND (ABSTRACT:"hardware" OR ABSTRACT:"real-time" OR ABSTRACT:"embedded")
+abs:"electromagnetic field probe" OR abs:"dosimetry calibration" OR abs:"field sensor uncertainty"
+abs:"near-field measurement" OR abs:"SAR assessment" OR abs:"anechoic chamber calibration"
+abs:"broadband E-field sensor" OR abs:"traceability" OR abs:"field probe validation"
+(RF exposure OR EMF dosimetry) AND (wearable sensor OR personal monitoring) AND (metrology OR calibration)
