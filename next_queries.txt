@@ -1,4 +1,4 @@
-abs:"digital predistortion" OR abs:"peak-to-average power ratio" OR abs:"RMS detection" OR abs:"envelope tracking"
-abs:"sparse fourier transform" OR abs:"compressive sensing" OR abs:"sub-nyquist sampling" OR abs:"spectrum sensing"
-abs:"embedded DSP" OR abs:"real-time signal processing" OR abs:"FPGA" OR abs:"fixed-point arithmetic"
-"wearable" AND "dosimeter" AND "electromagnetic field" AND "hardware"
+abs:"flexible antenna" OR abs:"compact monopole antenna" OR abs:"broadband antenna" OR abs:"slot antenna"
+abs:"patch antenna" OR abs:"multiband antenna" OR abs:"wearable antenna" OR abs:"electromagnetic sensor array"
+abs:"miniaturized antenna" OR abs:"isotropic antenna" OR abs:"printed antenna" OR abs:"RF sensor"
+"wearable antenna" AND ("electromagnetic field" OR "dosimetry" OR "specific absorption rate") AND "sensor"
