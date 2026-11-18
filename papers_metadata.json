@@ -1,1 +1,128 @@
-[]
+[
+    {
+        "title": "Flexible Analog Self-Interference Cancellation for Waveform-Robust Monostatic ISAC",
+        "abstract": "Monostatic integrated sensing and communication (ISAC) requires in-band full-duplex operation, where self-interference cancellation (SIC) must suppress the strong transmit leakage while preserving weak sensing echoes. In the analog domain, this task is complicated by transmitter impairments, which generate conjugate and nonlinear SI components, and by waveforms with widely different statistics. This paper develops a flexible analog self-interference cancellation (FASIC) framework for monostatic ISAC based on the widely linear normalized least-mean-square (WL-NLMS) algorithm. FASIC generates the cancellation signal in digital baseband, subtracts it in the radio-frequency domain, and enables flexible sensing-range control via a configurable cancellation span. Its normalized adaptation remains stable across waveforms with substantially different peak-to-average power ratios (PAPRs), for which fixed-step adaptation can become unstable. We further relate transmit-waveform statistics to analog SIC performance and predict the waveform-dependent cancellation floor. Simulations validate the analysis and demonstrate stable analog SIC of approximately $30$--$34$ dB, with the low-PAPR waveforms achieving a $3.3$ dB deeper floor owing to their smaller high-order amplitude moments. Near-field static reflections within the cancellation span are suppressed while delayed and Doppler-shifted echoes are preserved. These results establish FASIC as a waveform-robust analog SIC solution and identify waveform statistics as a key consideration for sixth-generation (6G) waveform selection.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2610.10997",
+        "pdf_url": "https://arxiv.org/pdf/2610.10997.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Sensing-Aware Backscatter Communications: A Survey on Envelope Stability, Waveform Design, and Selection Diversity",
+        "abstract": "The vision of ubiquitous battery-free connectivity has positioned backscatter communication as a foundational technology for next-generation Internet of Things (IoT) and industrial sensing applications. However, as backscatter systems evolve from simple identification tags toward high-fidelity integrated sensing and communication (ISAC) devices, fundamental challenges emerge at the intersection of waveform design, hardware nonlinearity, and channel dynamics. This paper presents a comprehensive survey of sensing-aware backscatter communications, with a focus on three tightly coupled dimensions: envelope stability, spatial diversity, and temporal channel robustness. We introduce the concept of the ``Illuminator's Dilemma'' to describe the inherent conflict between high-peak-to-average power ratio (PAPR) multicarrier waveforms optimized for active communication and the stringent dynamic range requirements of passive tags. The survey provides a unified treatment of multi-objective waveform design strategies, a comprehensive taxonomy of near-far mitigation techniques, and an in-depth analysis of channel state information (CSI) aging in backscatter networks. Key contributions include tag-centric metrics such as the Backscatter Crest Factor (BCF), Envelope Stability Factor (ESF), and Sensing Fidelity Index (SFI), along with a comparative evaluation of PAPR reduction techniques, spatial diversity methods, and non-coherent detection schemes. This survey is intended for researchers, engineers, and graduate students working in wireless communications, IoT, RF sensing, and integrated sensing and communications.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2607.24899",
+        "pdf_url": "https://arxiv.org/pdf/2607.24899.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "OwnDPDLab: A Flexible Open-Source Testbed for Wideband DPD Algorithm Benchmarking",
+        "abstract": "5G and Beyond-5G standards require digital predistortion (DPD) algorithms to operate on increased signal bandwidths. Wideband laboratory test hardware is cost-intensive, and openly available solutions lack flexibility. The OwnDPDLab provides a highly flexible, affordable, open-source, and openly accessible system. It is based on the RFSoC 4x2 and supports full control of center frequency, sampling mode, output power, and input attenuation at a signal bandwidth of up to 1 GHz. The system's capability is demonstrated by linearizing a laboratory power amplifier using a 196.608 MHz orthogonal frequency division multiplexing (OFDM) signal with 256-QAM modulation using both a memory polynomial and an augmented real-valued time-delay neural network in the first and second Nyquist zone. The system achieves a normalized mean squared error improvement of up to 23 dB and an adjacent channel leakage ratio improvement of up to 11 dB, using DPD.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2607.11612",
+        "pdf_url": "https://arxiv.org/pdf/2607.11612.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Amplitude-Phase-Frequency Block Modulation for OFDM-ISAC with SI-Free PAPR Reduction and Pilotless Sensing",
+        "abstract": "Orthogonal Frequency Division Multiplexing (OFDM)-based integrated sensing and communication systems demand a unified waveform that simultaneously supports reliable data transmission, low peak-to-average power ratio (PAPR), and accurate channel sensing. Existing approaches multiplex communication and sensing across separate time or frequency resources, or rely on dedicated pilots for channel estimation, limiting system flexibility and increasing overhead. This paper proposes an amplitude-phase-frequency block modulation (APFBM) scheme for OFDM that achieves waveform-level integration of communication and sensing without resource partitioning. Information symbols are represented on the Stokes sphere and mapped to energy-normalized Jones vectors through an unambiguous rule that establishes a deterministic phase reference per block. This mapping exposes a commonphase degree of freedom inherent in the signal structure. At the transmitter, a grouped phase optimization algorithm exploits this structural freedom to reduce the PAPR without side information (SI). At the receiver, the same deterministic phase structure enables a Viterbi-based maximum-likelihood (ML) sequence detection algorithm that jointly recovers the optimization phases and estimates the block-wise channel amplitude and phase. No dedicated sensing pilots are required, as the sensing observables are extracted directly from the communication waveform. Closed-form error-rate and sensing-accuracy expressions are derived. Numerical simulations and over-the-air measurements on a software-defined radio link confirm effective PAPR reduction, accurate channel sensing, reliable phase recovery, and stable channel state information reconstruction. The proposed scheme trades a moderate reduction in spectral efficiency for a unified waveform design that simultaneously delivers SI-free PAPR reduction and pilotless sensing.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2606.20011",
+        "pdf_url": "https://arxiv.org/pdf/2606.20011.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Superfast Spectral Compressed Sensing with Quadratic Convergence",
+        "abstract": "In this paper, we study the spectral compressed sensing problem of recovering a spectrally sparse signal from linear compressive measurements. Exploiting the low-rank Hankel structure associated with the signal, we formulate a nonconvex fixed-rank optimization problem with a Hankel regularization. We propose a Superfast Iterative Hard Thresholding (SIHT) algorithm, where each iteration consists of a tangent-space least-squares update followed by a fixed-rank hard thresholding projection. SIHT is the first nonconvex algorithm with provable quadratic convergence for spectral compressed sensing. For random Gaussian measurements, it achieves exact recovery in the noiseless case and stable recovery in the noisy case with near-optimal sample complexity. To efficiently implement SIHT, we develop a parameterized conjugate gradient method for solving the least-squares subproblem, endowing SIHT with state-of-the-art computational and memory efficiency. Numerical experiments are provided to validate our results.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2610.21068",
+        "pdf_url": "https://arxiv.org/pdf/2610.21068.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Lifted Restricted Isometry Property and Fast Algorithm for Spectral Compressed Sensing With Near-Optimal Sample Complexity",
+        "abstract": "This paper studies the spectral compressed sensing problem, which aims to recover an $r$-spectrally-sparse signal of length $N$ from linear compressive measurements. We reformulate the problem as the recovery of a low-rank Hankel matrix. Motivated by this formulation, we propose a Lifted Restricted Isometry Property (LRIP) for the measurement matrix and show that Gaussian measurement matrices satisfy LRIP under certain conditions. Unlike classical RIP, LRIP imposes a rank constraint in the lifted matrix domain while taking measurements in the signal domain through the adjoint Hankel operator. To solve the resulting nonconvex problem efficiently, we introduce a Fast Iterative Hard Thresholding (FIHT) algorithm. Based on LRIP, we show that FIHT converges linearly to the true signal with high probability using $\\mathcal{O}(r \\ln r \\ln^2 N)$ scaled Gaussian measurements, which is near-optimal up to log factors and improves the state-of-the-art order of $r^2$ for nonconvex Hankel methods. Extensive numerical results demonstrate the superiority of FIHT as compared to state-of-the-art convex methods in terms of phase transitions, computational time, and robustness to noise.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2610.18032",
+        "pdf_url": "https://arxiv.org/pdf/2610.18032.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Incoherent filter banks",
+        "abstract": "Equi-isoclinic (EI) and equichordal (EC) tight fusion frames (TFFs) are types of minimally coherent (maximally orthogonal) subspace packings that arise in several applications, such as compressed sensing. They seem challenging to construct, and the problem of characterizing their existence remains mostly open. In this paper, we characterize those special complex EITFFs and ECTFFs that arise from isometries whose cross-Gram matrices commute, as is the case with filter banks. In particular, we show that every filter bank EITFF is equivalent to a direct sum of equiangular tight frames (ETFs). More generally, we show that every filter bank ECTFF is analogously equivalent to a novel generalization of ETFs that we dub stratified unit norm tight frames (SUNTFs). We further establish a general theory of SUNTFs, providing various explicit constructions of them, and some necessary conditions on their existence. All of our techniques are explicit, yielding direct constructions of incoherent filter banks.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2610.05302",
+        "pdf_url": "https://arxiv.org/pdf/2610.05302.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Event-driven signal reconstruction through neuromorphic compressive sensing",
+        "abstract": "Compressive sensing (CS) exploits intrinsic signal sparsity for efficient representation of high-dimensional data. However, conventional CS relies on fixed-length measurement representations and dense reconstruction operations, leaving communication and computational costs largely determined by system dimensions rather than signal sparsity. Here, we propose a neuromorphic CS framework centred on a spike-driven learned iterative shrinkage-thresholding algorithm (S-LISTA). By representing compressed measurements and reconstruction updates as sparse events, the framework links intrinsic signal sparsity to the spatiotemporal sparsity of spiking neural networks (SNNs), extending the benefits of sparsity across sensing, transmission and reconstruction. Communication and computational costs consequently depend on event activity, allowing sparse representations to translate into resource savings. Extensive experiments demonstrate substantial reductions in transmitted data volume and estimated reconstruction energy while maintaining competitive reconstruction and downstream task performance. The framework also exhibits robustness under challenging channel conditions. These findings establish neuromorphic CS as a promising paradigm for signal reconstruction in resource-constrained scenarios.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2609.28063",
+        "pdf_url": "https://arxiv.org/pdf/2609.28063.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Learning Fourier-Sparse Signals and Multiband Signals",
+        "abstract": "A classical problem in continuous sparse Fourier transforms, which dates back to Prony's work in 1795, is to learn a $k$-Fourier-sparse signal $x(t):=\\sum_{j=1}^k α_j e^{2 π\\mathbf{i} f_j t}$ with arbitrary $k$ frequencies $f_1,\\ldots,f_k \\in \\mathbb{R}$. We consider this learning problem within a fixed time window $t \\in [-1,1]$ in the presence of bounded $L_2$ adversarial noise. Because the frequencies $f_1,\\ldots,f_k$ can be arbitrarily close, accurately recovering individual frequencies is information-theoretically impossible even under exponentially small noise from Moitra (STOC 2015). This work therefore examines two fundamental questions: If an algorithm uses $\\tilde{O}(k)$ frequencies to approximate $f_1,\\ldots,f_k$ of $x$, what is the optimal covering error? And how can we efficiently learn the continuous signal $x(t)$ as a whole over the time window?   Our main result is an algorithm running in time $\\tilde{O}(k)$ that outputs a list $L$ of $\\tilde{O}(k)$ frequencies with covering error $O(k)$ --- meaning that for most frequencies $f_j$ of $x$, $L$ guarantees $\\min_{\\tilde{f} \\in L} |f_j-\\tilde{f}| = O(k)$ --- and an reconstruction $\\tilde{x}(t) \\approx x(t)$ over $[-1,1]$. When constrained to outputting $\\tilde{O}(k)$ frequencies, this $O(k)$ covering error is nearly optimal: Chen and Price (ICALP 2019) demonstrated two indistinguishable $k$-Fourier-sparse signals separated by distance $\\tildeΩ(k^2)$ in the frequency domain, which implies an amortized lower bound of $\\tildeΩ(k)$ per frequency. Furthermore, our sample and time complexities are nearly optimal, dramatically improving upon the previous best algorithm by Song, Sun, Weinstein, and Zhang (FOCS 2023), which required $\\tilde{O}(k^4)$ samples and $\\tilde{O}(k^{4ω})$ running time.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2609.02977",
+        "pdf_url": "https://arxiv.org/pdf/2609.02977.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Instance Optimal Sparse Recovery from Nonlinear Observations: A Unified Framework",
+        "abstract": "This paper develops a unified framework for instance optimal sparse recovery from nonlinear observations. The main ingredient is a signal-dependent restricted approximate invertibility condition (RAIC) of some gradient, which leads to the instance optimality of iterative hard thresholding. Under Gaussian designs, we apply the proposed framework to phaseless, one-bit, and ReLU measurements, which correspond to the problems of sparse phase retrieval, one-bit compressed sensing, and sparse ReLU regression, respectively. For sparse phase retrieval, we propose a variant of thresholded amplitude flow and show its instance optimality under $O(s^3)$ measurements (up to logarithmic factors), where $s$ is the sparsity level. To our best knowledge, this is the first instance optimal efficient algorithm for sparse phase retrieval and complements Gao, Wang and Xu (2016) that achieved this via a computationally intractable program. In one-bit compressed sensing, we establish the instance optimality of normalized binary iterative hard thresholding and strengthen the recent result of Matsumoto and Mazumdar (2024). In sparse ReLU regression, it is shown that a slight variant of the algorithm in Soltanolkotabi (2017) is instance optimal. Moreover, $(\\ell_2,\\ell_2)$ non-uniform instance optimal guarantees are obtained for these problems. The analysis is built upon a number of high-dimensional concentration bounds, including bounds on restricted eigenvalues and a novel instance-dependent hyperplane tessellation result.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2609.02120",
+        "pdf_url": "https://arxiv.org/pdf/2609.02120.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "ResoLUT: Distilling Residual Networks into Lookup-Table Networks",
+        "abstract": "Logic networks built from Boolean gates or lookup tables (LUTs) promise efficient hardware inference, but training them at depth and learning their connectivity remain difficult. We do not train logic as logic. Instead, ResoLUT distills a trained residual network (ResNet) layer by layer into LUT trees, preserving its multi-bit residual stream and BatchNorm while extracting connectivity from the teacher rather than learning it. To our knowledge, ResoLUT is the first convolutional logic network in computer vision to retain a ResNet-style multi-bit residual stream. Hard LUT decisions are used throughout training and inference, avoiding a discretization gap in the logic. ResoLUT-20 reaches 95.66% on CIFAR-10 with twice the trees, and ResoLUT-56 reaches 78.87% on CIFAR-100 and 53.69% on ImageNet at 64px, the best results of logic and lookup-table networks on CIFAR-10 and CIFAR-100, showing that LUT networks can scale in depth. We explore and quantify the role of the residuals and the tree budget and shape. The most optimized model, a ResoLUT-8 with one eighth of the trees and further optimizations, fits on an FPGA and reaches 90.04% at 189k images per second, the highest throughput among the compared models above 85% on CIFAR-10.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2611.22955",
+        "pdf_url": "https://arxiv.org/pdf/2611.22955.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "A Four-Branch Radar Target Simulator with Fractional Delay on a PlutoSDR",
+        "abstract": "Repeatable test setups support the development and evaluation of integrated sensing and communications (ISAC) hardware and algorithms. Commercial radar target simulators are expensive, while sub-6 GHz ISAC experiments often need only tens of megahertz of bandwidth within their available spectrum allocation. This makes simpler, low-cost test hardware attractive. We present a low-cost, open-source radar target simulator based on an ADALM-Pluto without hardware modification, supporting four independently configurable targets and analog bandwidths up to 56 MHz. The FPGA generates echoes with independent delays, Doppler shifts and gains, using fractional-delay filters for sub-sample adjustment. For motion-consistent echoes, delay and carrier phase are updated together to reproduce both changing range and frequency-dependent Doppler shifts. Over-the-air measurements demonstrate simultaneous echoes, sub-sample delay adjustment, and smooth target motion between sample positions. The FPGA source, firmware and on-device web interface are publicly available.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2611.15674",
+        "pdf_url": "https://arxiv.org/pdf/2611.15674.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Silinx: An Open, Browser-Based HDL Design Platform for Teaching Digital Systems on FPGA Boards",
+        "abstract": "Many digital systems courses teach on FPGA boards whose vendor tool is no longer maintained: the Digilent Basys2 and Nexys2 (Xilinx Spartan-3E) and Nexys3 and Atlys (Spartan-6) need Xilinx ISE 14.7, discontinued since 2013 and hard to install on the computers and tablets students use today. The author presents Silinx, a free (AGPL-3.0) HDL design platform for teaching that keeps ISE's Project Navigator workflow but runs in a web browser with nothing to install. A module can be written in VHDL or Verilog, in C or C++ through Silinx HLS, which is compatible with AMD's Vitis HLS and passes all 73 of its introductory examples, or drawn as a schematic, an ASM chart, a state diagram, a Boolean function with its Karnaugh map, or a Petri net, from which its HDL is generated. Designs are checked with explanations written for beginners, simulated, run on an emulated board, built, and programmed onto a real board over WebUSB. The implementation flow is open and runs in the browser: Yosys and nextpnr compiled to WebAssembly, with Silinx's own device data, timing model and bitstream writer for the Spartan-3E and Spartan-6, built by black-box observation of ISE's documented tools; Lattice iCE40 boards use the existing open iCE40 tools, and further families are planned. ISE is the oracle: Silinx's bitstreams are byte-identical to those ISE writes for the same placed and routed design, and pass ISE's design rule check. Against ISE at the same optimization goal, the open flow uses 15% fewer slices with 14% shorter critical paths when optimizing for area, and 21% fewer slices with 8% shorter critical paths when optimizing for speed (geometric means over 45 open-source designs built by both flows). The author also describes how the platform was developed with AI coding agents under test-first project rules.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2611.11741",
+        "pdf_url": "https://arxiv.org/pdf/2611.11741.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "An Open Implementation Flow for the Xilinx Spartan-3E and Spartan-6 that Runs in the Browser, Checked Byte for Byte Against ISE",
+        "abstract": "The author describes an open implementation flow, from HDL to a programmable bitstream, for the Xilinx Spartan-3E (XC3S100E to XC3S1200E) and Spartan-6 (XC6SLX16, XC6SLX45), devices that only the discontinued ISE 14.7 supports. The flow runs unchanged in a web browser or in Node.js: Yosys and nextpnr compiled to WebAssembly, with nextpnr's Himbaechel framework given Spartan-3E and Spartan-6 architectures generated from Silinx's own device descriptions, bit database and timing model, and Silinx's own bitstream writer. The bit database was built by black-box observation of ISE's documented XDL and bitgen tools, using codeword-batched experiments; the router is given only switches whose bits were measured, and the writer refuses a feature it has not measured. ISE is the oracle: for the same placed and routed design, the bitstream is byte-identical to the one bitgen writes and ISE's DRC is clean. Placement and routing were first done by an in-house annealer and PathFinder router, which nextpnr replaced once it matched them. On 67 open-source designs for the XC3S1200E, compared with ISE at the same optimisation goal (45 designs built by both), the flow uses 15% fewer slices and has 14% shorter critical paths at goal Area, 21% fewer slices and 8% shorter paths at Speed, and 20% fewer slices but 12% longer paths at Fast (geometric means). XST cannot read 15 of the designs. The flow is published as the npm package silinx-fpga (Apache-2.0).",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2611.13008",
+        "pdf_url": "https://arxiv.org/pdf/2611.13008.pdf",
+        "status": "ready_to_download"
+    }
+]
