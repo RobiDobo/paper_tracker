@@ -1,4 +1,4 @@
-abs:"flexible antenna" OR abs:"compact monopole antenna" OR abs:"broadband antenna" OR abs:"slot antenna"
-abs:"patch antenna" OR abs:"multiband antenna" OR abs:"wearable antenna" OR abs:"electromagnetic sensor array"
-abs:"miniaturized antenna" OR abs:"isotropic antenna" OR abs:"printed antenna" OR abs:"RF sensor"
-"wearable antenna" AND ("electromagnetic field" OR "dosimetry" OR "specific absorption rate") AND "sensor"
+abs:"software-defined radio" OR abs:"peak detector" OR abs:"logarithmic detector"
+abs:"digital signal processing" OR abs:"spectrum sensing" OR abs:"power spectral density"
+abs:"RF filtering" OR abs:"envelope detector" OR abs:"real-time spectrum analysis"
+TITLE_ABS_KEY("wearable RF dosimeter" OR "personal EMF exposure monitor" OR "radiofrequency measurement hardware")
