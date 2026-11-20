@@ -1,4 +1,4 @@
-abs:"software-defined radio" OR abs:"gigasecond" OR abs:"gigasampling" OR abs:"RF-SoC"
-abs:"spectral estimation" OR abs:"direction-of-arrival estimation" OR abs:"compressive sensing" OR abs:"sub-Nyquist sampling"
-abs:"peak detector" OR abs:"logarithmic detector" OR abs:"envelope detector" OR abs:"power detector" OR abs:"digital down-conversion"
-TITLE_ABS:("personal dosimeter" OR "electromagnetic field exposure" OR "wearable RF sensor" OR "specific absorption rate probe")
+abs:"energy harvesting" OR abs:"power management integrated circuit" OR abs:"ultra-low power"
+abs:"wearable sensor" OR abs:"flexible electronics" OR abs:"battery-free"
+abs:"RF energy harvesting" OR abs:"ambient RF" OR abs:"rectifier design"
+AUTH_FIRST:"wearable" AND (ABS:"dosimeter" OR ABS:"exposure" OR ABS:"electromagnetic")
