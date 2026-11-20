@@ -1,0 +1,2 @@
+# Summary for Broadband_Thermoelectric_Energy_Harvesting_for_Wea.pdf
+

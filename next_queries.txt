@@ -1,4 +1,4 @@
-abs:"energy harvesting" OR abs:"power management integrated circuit" OR abs:"ultra-low power"
-abs:"wearable sensor" OR abs:"flexible electronics" OR abs:"battery-free"
-abs:"RF energy harvesting" OR abs:"ambient RF" OR abs:"rectifier design"
-AUTH_FIRST:"wearable" AND (ABS:"dosimeter" OR ABS:"exposure" OR ABS:"electromagnetic")
+abs:"RF dosimeter" OR abs:"electromagnetic exposure" OR abs:"field strength measurement"
+abs:"real-time spectrum sensing" OR abs:"peak detection" OR abs:"power envelope extraction"
+abs:"embedded signal processing" OR abs:"spectral estimation" OR abs:"OFDM signal classification"
+"wearable" AND "dosimeter" AND "radio frequency" AND "monitoring"
