@@ -1,4 +1,4 @@
-abs:"RF dosimeter" OR abs:"electromagnetic exposure" OR abs:"field strength measurement"
-abs:"real-time spectrum sensing" OR abs:"peak detection" OR abs:"power envelope extraction"
-abs:"embedded signal processing" OR abs:"spectral estimation" OR abs:"OFDM signal classification"
-"wearable" AND "dosimeter" AND "radio frequency" AND "monitoring"
+abs:"spectrum sensing" OR abs:"energy detection" OR abs:"cyclostationary"
+abs:"RF machine learning" OR abs:"spectrum recognition" OR abs:"deep clustering radio"
+abs:"FPGA spectrum" OR abs:"embedded RF" OR abs:"real-field DSP"
+"electromagnetic dosimeter" OR "wearable RF sensor" OR "personal EMF monitor"
