@@ -1,4 +1,4 @@
-abs:"RF dosimetry" OR abs:"E-field probe calibration" OR abs:"electromagnetic field sensor metrology"
-abs:"near-field measurement" OR abs:"SAR measurement" OR abs:"broadband field probe design"
-abs:"RF dosimeter uncertainty" OR abs:"isotropic sensor calibration" OR abs:"antenna factor determination"
-(mesh:"Radiometry/instrumentation" OR mesh:"Electromagnetic Fields/adverse effects") AND "wearable" AND "calibration"
+abs:"dosimetry" OR abs:"calibration" OR abs:"electric field probe" OR abs:"isotropic antenna"
+abs:"specific absorption rate" OR abs:"electromagnetic metrology" OR abs:"phantom" OR abs:"antenna calibration"
+abs:"near-field measurement" OR abs:"radiation hazard" OR abs:"sensor calibration" OR abs:"probe antenna"
+TITLE_ABS_KEY("personal dosimeter" OR "electromagnetic field exposure" OR "wearable rf sensor" OR "rf dosimeter")
