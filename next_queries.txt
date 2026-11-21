@@ -1,4 +1,4 @@
-abs:"spectrum sensing" OR abs:"energy detection" OR abs:"cyclostationary"
-abs:"RF machine learning" OR abs:"spectrum recognition" OR abs:"deep clustering radio"
-abs:"FPGA spectrum" OR abs:"embedded RF" OR abs:"real-field DSP"
-"electromagnetic dosimeter" OR "wearable RF sensor" OR "personal EMF monitor"
+abs:"RF dosimetry" OR abs:"E-field probe calibration" OR abs:"electromagnetic field sensor metrology"
+abs:"near-field measurement" OR abs:"SAR measurement" OR abs:"broadband field probe design"
+abs:"RF dosimeter uncertainty" OR abs:"isotropic sensor calibration" OR abs:"antenna factor determination"
+(mesh:"Radiometry/instrumentation" OR mesh:"Electromagnetic Fields/adverse effects") AND "wearable" AND "calibration"
