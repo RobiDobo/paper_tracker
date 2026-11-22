@@ -1,4 +1,4 @@
-abs:"radio frequency" AND ("peak detection" OR "envelope detection" OR "power estimation") AND ("embedded" OR "microcontroller" OR "real-time")
-abs:"EMF" AND ("frequency-selective" OR "dosimetry" OR "channel estimation") AND ("signal processing" OR "digital signal processing")
-abs:"wearable" AND ("spectrum sensing" OR "energy detection" OR "log-detector") AND ("low-power" OR "optimization" OR "feature extraction")
-"wearable" AND "dosimeter" AND ("radio frequency" OR "electromagnetic field") AND ("instrumentation" OR "sensor hardware")
+abs:"direction of arrival" OR abs:"Cramér-Rao bound" OR abs:"covariance estimation" OR abs:"Bayesian estimation"
+abs:"beamforming" OR abs:"sparse recovery" OR abs:"parameter estimation" OR abs:"quantized measurements"
+abs:"digital signal processing" OR abs:"spectrum sensing" OR abs:"array processing" OR abs:"compressive sensing"
+ABSTRACT_M:"wearable dosimeter" OR ABSTRACT_M:"personal electromagnetic field exposure" OR ABSTRACT_M:"radiofrequency radiation sensor" OR ABSTRACT_M:"wearable EMF monitor"
