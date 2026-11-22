@@ -1,0 +1,2 @@
+# Summary for Energy_Autonomous_Wearable_Sensors_for_Smart_Healt.pdf
+
