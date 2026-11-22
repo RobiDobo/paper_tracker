@@ -1,4 +1,4 @@
-abs:"direction of arrival" OR abs:"Cramér-Rao bound" OR abs:"covariance estimation" OR abs:"Bayesian estimation"
-abs:"beamforming" OR abs:"sparse recovery" OR abs:"parameter estimation" OR abs:"quantized measurements"
-abs:"digital signal processing" OR abs:"spectrum sensing" OR abs:"array processing" OR abs:"compressive sensing"
-ABSTRACT_M:"wearable dosimeter" OR ABSTRACT_M:"personal electromagnetic field exposure" OR ABSTRACT_M:"radiofrequency radiation sensor" OR ABSTRACT_M:"wearable EMF monitor"
+abs:"compressive sensing" OR abs:"sparse recovery" OR abs:"direction of arrival" OR abs:"covariance estimation"
+abs:"spectrum sensing" OR abs:"sub-Nyquist sampling" OR abs:"DOA estimation" OR abs:"array signal processing"
+abs:"Bayesian Cram" OR abs:"parameter estimation" OR abs:"quantized measurements" OR abs:"adaptive beamforming"
+ABSTRACT_ure:"wearable dosimeter" OR ABSTRACT_ure:"personal exposure meter" OR ABSTRACT_ure:"electromagnetic field monitoring" OR ABSTRACT_ure:"radiofrequency radiation sensor"
