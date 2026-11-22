@@ -15,8 +15,8 @@ def run_script(script_name):
 
 def main():
     start_time = time.time()
-    # 5.5 hours (19800 seconds) to stay safely under GitHub's 6-hour hard limit
-    MAX_RUN_TIME_SECONDS = 5.5 * 3600 
+    # 1 hour 45 minutes (6300s) — leaves a 15-minute buffer before the 2-hour YAML timeout
+    MAX_RUN_TIME_SECONDS = 105 * 60
     
     print(f"🤖 Starting Cloud Dosimetry Agent at {datetime.datetime.now()}")
     
