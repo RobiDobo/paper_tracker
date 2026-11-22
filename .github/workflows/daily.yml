@@ -8,7 +8,7 @@ on:
 jobs:
   run-agent:
     runs-on: ubuntu-latest
-    timeout-minutes: 180 # Give it 3 hours max (we stop at 2 hours internally)
+    timeout-minutes: 120
     permissions:
       contents: write # Needed to push the database back
 
