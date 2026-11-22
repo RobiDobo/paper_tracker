@@ -1,4 +1,4 @@
-abs:"Vivaldi antenna" OR abs:"broadband antenna array" OR abs:"wearable antenna" OR abs:"flexible antenna"
-abs:"metamaterial antenna" OR abs:"electromagnetic bandgap" OR abs:"compact antenna sensor" OR abs:"planar antenna"
-abs:"patch antenna" OR abs:"slot antenna" OR abs:"multiband antenna" OR abs:"RF sensor array"
-TITLE_ABS_KEY:("wearable electromagnetic dosimeter" OR "RF exposure sensor" OR "personal EMF monitor" OR "wearable SAR sensor")
+abs:"radio frequency" AND ("peak detection" OR "envelope detection" OR "power estimation") AND ("embedded" OR "microcontroller" OR "real-time")
+abs:"EMF" AND ("frequency-selective" OR "dosimetry" OR "channel estimation") AND ("signal processing" OR "digital signal processing")
+abs:"wearable" AND ("spectrum sensing" OR "energy detection" OR "log-detector") AND ("low-power" OR "optimization" OR "feature extraction")
+"wearable" AND "dosimeter" AND ("radio frequency" OR "electromagnetic field") AND ("instrumentation" OR "sensor hardware")
