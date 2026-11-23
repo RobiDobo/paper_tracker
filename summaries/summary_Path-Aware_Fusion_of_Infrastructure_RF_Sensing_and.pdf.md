@@ -1,0 +1,10 @@
+# Summary for Path-Aware_Fusion_of_Infrastructure_RF_Sensing_and.pdf
+
+1. **Core Method**  
+   The authors built a live robotic digital twin that fuses timestamped, spatially supported evidence from 60-GHz CSI, Wi-Fi/5G, camera, and LiDAR, with path-aware gating and stale-branch fail-safe handling. For 60-GHz human-presence sensing, they used mean magnitude attenuation (Δ) and phase-signature coherence (c) relative to an empty-room reference, classified with an RBF-SVM, and used the RF evidence to stop a quadruped robot when a person was on its intended path.
+
+2. **Main Conclusions**  
+   **No dosimetry results are reported**—the excerpt contains no RF exposure, SAR, incident power density, ICNIRP, or non-ionizing radiation dose assessment. The reported results are RF-sensing/robotics results: phase coherence dropped to uncorrelated levels (~0.09–0.13) with persons present, while magnitude attenuation was small and non-discriminative (person 1.4–8.4 dB vs. metal plate 0.1–2.5 dB). The metal plate left coherence unchanged, indicating phase coherence was the key human-detection signal. Presence detection reached 0.98 balanced accuracy on unseen sessions and 0.999 across days at site A; site B required retraining (0.98 vs. 0.73 without). A fixed threshold c < 0.4 performed within 0.001 of the SVM after stabilization. Path-aware gating eliminated off-path false stops. End-to-end latency was ~1.83 s from camera detection and ~1.57 s from the 60-GHz link.
+
+3. **Limitations / Future Work**  
+   The excerpt does **not** state explicit future work or dosimetry gaps. Implied limitations include site-specific retraining needs at site B, dependence on threshold stabilization for the fixed c < 0.4 rule, and latency dominated by confirmation and braking (~1.83 s camera path). Also, no dosimetry/exposure assessment is included, so no conclusions about RF dose or compliance limits can be drawn from this material.
