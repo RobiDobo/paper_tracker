@@ -1,4 +1,4 @@
-abs:"compressive sensing" OR abs:"sparse recovery" OR abs:"direction of arrival" OR abs:"covariance estimation"
-abs:"spectrum sensing" OR abs:"sub-Nyquist sampling" OR abs:"DOA estimation" OR abs:"array signal processing"
-abs:"Bayesian Cram" OR abs:"parameter estimation" OR abs:"quantized measurements" OR abs:"adaptive beamforming"
-ABSTRACT_ure:"wearable dosimeter" OR ABSTRACT_ure:"personal exposure meter" OR ABSTRACT_ure:"electromagnetic field monitoring" OR ABSTRACT_ure:"radiofrequency radiation sensor"
+abs:"wideband antenna" OR abs:"Vivaldi antenna" OR abs:"miniature antenna" OR abs:"flexible antenna"
+abs:"near-field probe" OR abs:"patch antenna" OR abs:"dielectric resonator antenna" OR abs:"electromagnetic sensor"
+abs:"phased array" OR abs:"antenna array" OR abs:"isotropic antenna" OR abs:"electromagnetic probe"
+ABSTRACT_X:"wearable electromagnetic dosimeter" OR ABSTRACT_X:"personal RF exposure monitor" OR ABSTRACT_X:"radiofrequency personal dosimeter hardware"
