@@ -1,4 +1,4 @@
-abs:"flexible antenna" OR abs:"wearable antenna" OR abs:"broadband antenna" OR abs:"Vivaldi antenna"
-abs:"sensor array" OR abs:"metamaterial antenna" OR abs:"electrically small antenna" OR abs:"antenna array"
-abs:"reconfigurable antenna" OR abs:"textile antenna" OR abs:"conformal antenna" OR abs:"dual-polarized antenna"
-(TITLE_ABS_KEY:"wearable" OR TITLE_ABS_KEY:"personal") AND (TITLE_ABS_KEY:"dosimeter" OR TITLE_ABS_KEY:"electromagnetic field" OR TITLE_ABS_KEY:"RF exposure") AND (TITLE_ABS_KEY:"sensor" OR TITLE_ABS_KEY:"monitor")
+abs:"wearable antenna" OR abs:"flexible antenna" OR abs:"compact antenna"
+abs:"sensor array" OR abs:"Vivaldi antenna" OR abs:"patch antenna"
+abs:"rectenna" OR abs:"electromagnetic bandgap" OR abs:"metamaterial antenna"
+"personal dosimeter" OR "electromagnetic field sensor" OR "wearable dosimeter"
