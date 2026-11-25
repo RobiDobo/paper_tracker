@@ -1,4 +1,4 @@
-abs:"wearable antenna" OR abs:"flexible antenna" OR abs:"compact antenna"
-abs:"sensor array" OR abs:"Vivaldi antenna" OR abs:"patch antenna"
-abs:"rectenna" OR abs:"electromagnetic bandgap" OR abs:"metamaterial antenna"
-"personal dosimeter" OR "electromagnetic field sensor" OR "wearable dosimeter"
+abs:"digital signal processing" OR abs:"peak detection" OR abs:"spectrum sensing"
+abs:"resource-constrained" OR abs:"edge computing" OR abs:"anomaly detection"
+abs:"software defined radio" OR abs:"real-time spectrum analysis" OR abs:"embedded DSP"
+FIRST_AUTHOR_AFFILIATION:(university OR institute) AND (ABSTRACT_M:"wearable dosimeter" OR ABSTRACT_M:"personal exposure" OR ABSTRACT_M:"RF EMF monitoring")
