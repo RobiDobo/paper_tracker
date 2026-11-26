@@ -1,4 +1,4 @@
-abs:"digital signal processing" OR abs:"peak detection" OR abs:"spectrum sensing"
-abs:"resource-constrained" OR abs:"edge computing" OR abs:"anomaly detection"
-abs:"software defined radio" OR abs:"real-time spectrum analysis" OR abs:"embedded DSP"
-FIRST_AUTHOR_AFFILIATION:(university OR institute) AND (ABSTRACT_M:"wearable dosimeter" OR ABSTRACT_M:"personal exposure" OR ABSTRACT_M:"RF EMF monitoring")
+abs:"electrically small antenna" OR abs:"folded dipole antenna" OR abs:"vector electromagnetic sensor"
+abs:"broadband antenna array" OR abs:"flexible antenna" OR abs:"conformal antenna"
+abs:"near-field sensor" OR abs:"reactively loaded antenna" OR abs:"integrated antenna"
+SRC_EXT_ID:pmc AND (abs:"personal exposimeter" OR abs:"wearable dosimeter" OR abs:"electromagnetic field sensor")
