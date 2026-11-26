@@ -1,4 +1,4 @@
-abs:"electrically small antenna" OR abs:"folded dipole antenna" OR abs:"vector electromagnetic sensor"
-abs:"broadband antenna array" OR abs:"flexible antenna" OR abs:"conformal antenna"
-abs:"near-field sensor" OR abs:"reactively loaded antenna" OR abs:"integrated antenna"
-SRC_EXT_ID:pmc AND (abs:"personal exposimeter" OR abs:"wearable dosimeter" OR abs:"electromagnetic field sensor")
+abs:"broadband" OR abs:"Vivaldi" OR abs:"antenna array" AND abs:"dosimeter" OR abs:"E-field probe"
+abs:"metasurface" AND abs:"sensing" AND abs:"antenna" AND abs:"near-field"
+abs:"rectenna" OR abs:"energy harvesting" OR abs:"wearable antenna" AND abs:"radio frequency"
+"wearable" AND "dosimeter" AND "electromagnetic field" AND "sensor"

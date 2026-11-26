@@ -1,1 +1,38 @@
-[]
+[
+    {
+        "title": "SIM-Aided Near-Field Channel and Localization Estimation With Dimensionality Reduction: A Multiport Network Theory Approach",
+        "abstract": "The deployment of Extremely Large-Scale Antenna Arrays for 6G enables radiative near-field sensing but poses significant challenges in terms of hardware complexity and interference. Stacked Intelligent Metasurfaces (SIMs) address these limitations by enabling wave-domain dimensionality reduction. This paper proposes a rigorous SIM-aided framework for near-field channel and localization estimation based on Multiport Network Theory, which provides an electromagnetically consistent characterization accounting for mutual coupling and non-unilateral inter-layer propagation effects. An indirect estimation approach is adopted, where the SIM is optimized to perform analog spatial filtering by projecting the received signal onto a relevant subspace identified through coarse prior location information. Within this realistic setting, we analytically characterize the impact of SIM approximation errors on channel estimation and quantify the resulting effects on localization performance. The results show that the proposed architecture preserves the essential wavefront curvature information required for accurate near-field localization, achieving performance comparable to fully digital solutions while drastically reducing the number of radio-frequency chains.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2605.23779",
+        "pdf_url": "https://arxiv.org/pdf/2605.23779.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "How Do Microstrip Losses Impact Near-Field Beam Depth in Dynamic Metasurface Antennas?",
+        "abstract": "The convergence of eXtremely Large (XL) antenna arrays and high-frequency bands in future wireless networks will inevitably give rise to near-field communications, localization, and sensing. Dynamic Metasurface Antennas (DMAs) have emerged as a key enabler of the XL Multiple-Input Multiple-Output (MIMO) paradigm, leveraging reconfigurable metamaterials to support large antenna arrays. However, DMAs are inherently lossy due to propagation losses in the microstrip lines and radiative losses from the metamaterial elements, which reduce their gain and alter their beamforming characteristics compared to a lossless aperture. In this paper, we address the gap in understanding how DMA losses affect near-field beamforming performance, by deriving novel analytical expressions for the beamforming gain of DMAs under misalignments between the focusing position and the intended user's position in 3D space. Additionally, we derive beam depth limits for varying attenuation conditions, from lossless to extreme attenuation, offering insights into the impact of losses on DMA near-field performance.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2503.12280",
+        "pdf_url": "https://arxiv.org/pdf/2503.12280.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Near-Field Localization with Dynamic Metasurface Antennas at THz: A CRB Minimizing Approach",
+        "abstract": "The recent trend for extremely massive antenna arrays and high frequencies facilitates localization and sensing, offering increased angular and range resolution. In this letter, we focus on the emerging technology of Dynamic Metasurface Antennas (DMAs) and present a novel framework for the design of their analog beamforming weights, targeting high accuracy near-field localization at the THz frequency band. We derive the Cramér-Rao Bound (CRB) for the estimation of the positions of multiple users with a DMA-based receiver, which is then utilized as the optimization objective for the receiver's discrete tunable states of its metamaterials. Leveraging the DMA structure, we reformulate the localization objective into a constrained Rayleigh quotient maximization problem, which is efficiently solved via two schemes: one based on projection and a greedy one. Our simulation results verify the validity of our near-field localization analysis, showcasing the effectiveness of the proposed near-field localization designs over the optimum exhaustive search solution and state-of-the-art schemes.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2502.16647",
+        "pdf_url": "https://arxiv.org/pdf/2502.16647.pdf",
+        "status": "ready_to_download"
+    },
+    {
+        "title": "Extremely Large-Scale Dynamic Metasurface Antennas (XL-DMAs): Near-Field Modeling and Channel Estimation",
+        "abstract": "Dynamic metasurface antennas (DMAs) represent a novel transceiver array architecture for extremely large-scale (XL) communications, offering the advantages of reduced power consumption and lower hardware costs compared to conventional arrays.   This paper focuses on near-field channel estimation for XL-DMAs. We begin by analyzing the near-field characteristics of uniform planar arrays (UPAs) and introducing the Oblong Approx. model. This model decouples elevation-azimuth (EL-AZ) parameters for XL-DMAs, providing an effective means to characterize the near-field effect. It offers simpler mathematical expressions than the second-order Taylor expansion model, all while maintaining negligible model errors for oblong-shaped arrays.   Building on the Oblong Approx. model, we propose an EL-AZ-decoupled estimation framework that involves near- and far-field parameter estimation for AZ/EL and EL/AZ directions, respectively. The former is formulated as a distributed compressive sensing problem, addressed using the proposed off-grid distributed orthogonal least squares algorithm, while the latter involves a straightforward parallelizable search. Crucially, we illustrate the viability of decoupled EL-AZ estimation for near-field UPAs, exhibiting commendable performance and linear complexity correlated with the number of metasurface elements.   Moreover, we design an measurement matrix optimization method with the Lorentzian constraint on DMAs and highlight the estimation performance degradation resulting from this constraint.",
+        "doi": null,
+        "pmcid": null,
+        "arxiv_id": "2407.04954",
+        "pdf_url": "https://arxiv.org/pdf/2407.04954.pdf",
+        "status": "ready_to_download"
+    }
+]
