@@ -1,4 +1,4 @@
-abs:"frequency selective surface" OR abs:"Vivaldi antenna" OR abs:"wearable antenna" OR abs:"miniaturized antenna"
-abs:"patch antenna array" OR abs:"isotropic antenna" OR abs:"electrically small antenna" OR abs:"broadband antenna"
-abs:"metamaterial antenna" OR abs:"differential antenna" OR abs:"slot antenna" OR abs:"dual polarized antenna"
-TITLE_ABS_KEYWORD:"wearable dosimeter" OR TITLE_ABS_KEYWORD:"electromagnetic field sensor" OR TITLE_ABS_KEYWORD:"personal exposure meter" OR TITLE_ABS_KEYWORD:"RF dosimeter"
+abs:"wearable" AND abs:"RF" AND abs:"energy harvesting" AND abs:"dosimeter"
+abs:"low-power" AND abs:"RF sensing" AND abs:"flexible electronics" AND abs:"FPGA"
+abs:"wearable sensor" AND abs:"power management" AND abs:"RF front-end" AND abs:"low-latency"
+"personal dosimetry" AND "wearable" AND "exposure assessment" AND "RF"
