@@ -1,4 +1,4 @@
-abs:"broadband" OR abs:"Vivaldi" OR abs:"antenna array" AND abs:"dosimeter" OR abs:"E-field probe"
-abs:"metasurface" AND abs:"sensing" AND abs:"antenna" AND abs:"near-field"
-abs:"rectenna" OR abs:"energy harvesting" OR abs:"wearable antenna" AND abs:"radio frequency"
-"wearable" AND "dosimeter" AND "electromagnetic field" AND "sensor"
+abs:"frequency selective surface" OR abs:"Vivaldi antenna" OR abs:"wearable antenna" OR abs:"miniaturized antenna"
+abs:"patch antenna array" OR abs:"isotropic antenna" OR abs:"electrically small antenna" OR abs:"broadband antenna"
+abs:"metamaterial antenna" OR abs:"differential antenna" OR abs:"slot antenna" OR abs:"dual polarized antenna"
+TITLE_ABS_KEYWORD:"wearable dosimeter" OR TITLE_ABS_KEYWORD:"electromagnetic field sensor" OR TITLE_ABS_KEYWORD:"personal exposure meter" OR TITLE_ABS_KEYWORD:"RF dosimeter"
