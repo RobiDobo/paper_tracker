@@ -1,4 +1,4 @@
-abs:"wearable" AND abs:"RF" AND abs:"energy harvesting" AND abs:"dosimeter"
-abs:"low-power" AND abs:"RF sensing" AND abs:"flexible electronics" AND abs:"FPGA"
-abs:"wearable sensor" AND abs:"power management" AND abs:"RF front-end" AND abs:"low-latency"
-"personal dosimetry" AND "wearable" AND "exposure assessment" AND "RF"
+abs:"digital signal processing" OR abs:"peak detection" OR abs:"spectrum sensing" OR abs:"log-detector"
+abs:"software defined radio" OR abs:"power spectral density" OR abs:"RF receiver" OR abs:"channel estimation"
+abs:"embedded DSP" OR abs:"envelope detector" OR abs:"RMS detector" OR abs:"frequency selective"
+(AUTH:"dosimeter" OR TITLE:"dosimeter" OR ABS:"dosimeter") AND (ABS:"wearable" OR ABS:"electromagnetic field" OR ABS:"sensor")
