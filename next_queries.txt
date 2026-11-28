@@ -1,4 +1,4 @@
-abs:"digital signal processing" OR abs:"peak detection" OR abs:"spectrum sensing" OR abs:"log-detector"
-abs:"software defined radio" OR abs:"power spectral density" OR abs:"RF receiver" OR abs:"channel estimation"
-abs:"embedded DSP" OR abs:"envelope detector" OR abs:"RMS detector" OR abs:"frequency selective"
-(AUTH:"dosimeter" OR TITLE:"dosimeter" OR ABS:"dosimeter") AND (ABS:"wearable" OR ABS:"electromagnetic field" OR ABS:"sensor")
+abs:"broadband antenna" OR abs:"flexible antenna" OR abs:"Vivaldi" OR abs:"rectenna" OR abs:"antenna array"
+abs:"wearable sensor" OR abs:"RF dosimeter" OR abs:"EMF measurement" OR abs:"E-field probe"
+abs:"flexible electronics" OR abs:"stretchable interconnects" OR abs:"printed electronics" OR abs:"soft sensor"
+(wearable OR "personal monitor") AND ("RF exposure" OR "EMF measurement") AND ("antenna" OR "sensor")
