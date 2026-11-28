@@ -1,4 +1,4 @@
-abs:"broadband antenna" OR abs:"flexible antenna" OR abs:"Vivaldi" OR abs:"rectenna" OR abs:"antenna array"
-abs:"wearable sensor" OR abs:"RF dosimeter" OR abs:"EMF measurement" OR abs:"E-field probe"
-abs:"flexible electronics" OR abs:"stretchable interconnects" OR abs:"printed electronics" OR abs:"soft sensor"
-(wearable OR "personal monitor") AND ("RF exposure" OR "EMF measurement") AND ("antenna" OR "sensor")
+abs:"RF calibration" OR abs:"electric field probe" OR abs:"SAR measurement"
+abs:"bolometer" OR abs:"power sensor calibration" OR abs:"dosimeter calibration"
+abs:"anechoic chamber" OR abs:"antenna factor" OR abs:"isotropic sensor"
+(PUB_TYPE:"Journal Article") AND (TITLE_ABBR:"IEEE" OR JOURNAL:"Radiation Protection Dosimetry" OR JOURNAL:"Bioelectromagnetics") AND (ABS:"personal dosimeter" OR ABS:"electromagnetic field" OR ABS:"SAR sensor" OR ABS:"exposure meter")
